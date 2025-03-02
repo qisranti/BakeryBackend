@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "FinalBakery.Api.Controllers.IngredientsController",
+    "Method": "CreateIngredient",
+    "RelativePath": "api/Ingredients/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingredientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ingredientQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.PreparationsController",
+    "Method": "CreateIngredient",
+    "RelativePath": "api/Preparations/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stepName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stepDuration",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FinalBakery.Api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

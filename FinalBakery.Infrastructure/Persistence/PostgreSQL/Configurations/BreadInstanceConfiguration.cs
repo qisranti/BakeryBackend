@@ -31,12 +31,12 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Configurations
                 .HasForeignKey<BreadInstanceEntity>(bread => bread.Id)
                 .OnDelete(DeleteBehavior.Cascade);
             
-            builder.HasMany(breadInstance => breadInstance.Ingredients)
+            builder.HasMany(breadInstance => breadInstance.BreadIngredients)
                 .WithOne(ingredient => ingredient.BreadInstance)
                 .HasForeignKey(ingredient => ingredient.BreadInstanceId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasMany(breadInstance => breadInstance.Preparation)
+            builder.HasMany(breadInstance => breadInstance.BreadPreparation)
                 .WithOne(preparation => preparation.BreadInstance)
                 .HasForeignKey(preparation => preparation.BreadInstanceId)
                 .OnDelete(DeleteBehavior.Cascade);

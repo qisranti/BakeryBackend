@@ -1,3 +1,4 @@
+using FinalBakery.Application.Mappings;
 using FinalBakery.Infrastructure.Persistence.PostgreSQL;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAutoMapper(typeof(MappingsProfile));
 builder.Services.AddPersistenceServices(builder.Configuration);
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 
 
 var app = builder.Build();

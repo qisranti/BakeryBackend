@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\finalbakery.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\finalbakery.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\ingredients\\commands\\createingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\ingredients\\commands\\createingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.api\\controllers\\preparationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|solutionrelative:finalbakery.api\\controllers\\preparationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\ingredients\\commands\\createingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\ingredients\\commands\\createingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\preparations\\commands\\createpreparationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\preparations\\commands\\createpreparationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\preparations\\commands\\createpreparationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\preparations\\commands\\createpreparationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\dtos\\preparationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\dtos\\preparationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\mappings\\mappingsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\mappings\\mappingsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\repositories\\preparationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\repositories\\preparationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\contracts\\persistence\\ipreparationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\contracts\\persistence\\ipreparationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Migrations\\20250302060731_MigrationUpdate5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalBakery.Infrastructure\\Migrations\\20250302060731_MigrationUpdate5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\configurations\\preparationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\configurations\\preparationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\configurations\\ingredientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\configurations\\ingredientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +58,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:22:32.151Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateIngredientCommandHandler.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
-              "RelativeToolTip": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreatePreparationCommandHandler.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommandHandler.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommandHandler.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommandHandler.cs",
+              "RelativeToolTip": "FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T01:13:14.677Z",
+              "WhenOpened": "2025-03-02T06:17:10.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreatePreparationCommand.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommand.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommand.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommand.cs",
+              "RelativeToolTip": "FinalBakery.Application\\Features\\Preparations\\Commands\\CreatePreparationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:17:03.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PreparationDTO.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\DTOs\\PreparationDTO.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\DTOs\\PreparationDTO.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\DTOs\\PreparationDTO.cs",
+              "RelativeToolTip": "FinalBakery.Application\\DTOs\\PreparationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:15:40.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateIngredientCommand.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
-              "RelativeToolTip": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PreparationsController.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\PreparationsController.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Api\\Controllers\\PreparationsController.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\PreparationsController.cs",
+              "RelativeToolTip": "FinalBakery.Api\\Controllers\\PreparationsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T01:13:05.223Z",
+              "WhenOpened": "2025-03-02T06:14:24.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FinalBakery.Application",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\FinalBakery.Application.csproj",
-              "RelativeDocumentMoniker": "FinalBakery.Application\\FinalBakery.Application.csproj",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\FinalBakery.Application.csproj",
-              "RelativeToolTip": "FinalBakery.Application\\FinalBakery.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-02T00:46:39.294Z",
+              "DocumentIndex": 5,
+              "Title": "MappingsProfile.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Mappings\\MappingsProfile.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Mappings\\MappingsProfile.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Mappings\\MappingsProfile.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Mappings\\MappingsProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:12:48.696Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PreparationRepository.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\PreparationRepository.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\PreparationRepository.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\PreparationRepository.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\PreparationRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:11:17.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPreparationRepository.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Contracts\\Persistence\\IPreparationRepository.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\Contracts\\Persistence\\IPreparationRepository.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Contracts\\Persistence\\IPreparationRepository.cs",
+              "RelativeToolTip": "FinalBakery.Application\\Contracts\\Persistence\\IPreparationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:10:16.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250302060731_MigrationUpdate5.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Migrations\\20250302060731_MigrationUpdate5.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Migrations\\20250302060731_MigrationUpdate5.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Migrations\\20250302060731_MigrationUpdate5.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Migrations\\20250302060731_MigrationUpdate5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:07:32.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\AppDbContext.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\AppDbContext.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:05:17.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IngredientConfiguration.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\IngredientConfiguration.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\IngredientConfiguration.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\IngredientConfiguration.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\IngredientConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:03:57.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PreparationConfiguration.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\PreparationConfiguration.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\PreparationConfiguration.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\PreparationConfiguration.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Configurations\\PreparationConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T06:03:43.33Z",
+              "EditorCaption": ""
             }
           ]
         }

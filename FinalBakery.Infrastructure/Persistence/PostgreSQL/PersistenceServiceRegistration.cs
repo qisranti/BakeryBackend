@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FinalBakery.Application.Contracts.Persistence;
+using FinalBakery.Application.Mappings;
+using FinalBakery.Infrastructure.Persistence.PostgreSQL.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -31,6 +34,9 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
             AddDbContextPostgreSql(services, configuration);
+            services.AddAutoMapper(typeof(MappingsProfile));
+            services.AddScoped<IIngredientRepository, IngredientRepository>();
+            services.AddScoped<IPreparationRepository, PreparationRepository>();
             return services;
         }
     }

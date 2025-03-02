@@ -28,10 +28,9 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Configurations
 
         private void ConfigureRelationShips(EntityTypeBuilder<IngredientsEntity> builder) 
         {
-            builder.HasOne(ingredient => ingredient.BreadInstance)
-                .WithMany(breadInstance => breadInstance.Ingredients)
-                .HasForeignKey(ingredients => ingredients.BreadInstanceId)
-                .OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(ingredient => ingredient.BreadInstances)
+                .WithOne(breadInstances => breadInstances.Ingredient)
+                .HasForeignKey(breadInstances => breadInstances.IngredientId);
         }
 
     }

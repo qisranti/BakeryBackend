@@ -9,10 +9,9 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities
 {
     public class PreparationEntity: BaseEntity, IAuditableEntity
     {
-        public int BreadInstanceId { get; set; }
         public string Step_Name { get; set; } = string.Empty;
         public float Step_Duration { get; set; }
-        public BreadInstanceEntity BreadInstance { get; set; } = default!;
+        public ICollection<BreadInstancePreparationEntity> BreadInstances { get; set; } = [];
         public AuditInfo Audit { get; set; } = default!;
     }
 }

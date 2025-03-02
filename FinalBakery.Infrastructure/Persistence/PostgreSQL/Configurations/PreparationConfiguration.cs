@@ -32,10 +32,9 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Configurations
 
         private void ConfigureRelationShips(EntityTypeBuilder<PreparationEntity> builder)
         {
-            builder.HasOne(preparation => preparation.BreadInstance)
-                .WithMany(breadInstance => breadInstance.Preparation)
-                .HasForeignKey(preparation => preparation.BreadInstanceId)
-                .OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(preparation => preparation.BreadInstances)
+                .WithOne(breadInstance => breadInstance.Preparation)
+                .HasForeignKey(preparation => preparation.PreparationId);
         }
     }
 }
