@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "TZpXzdrIWMWHYvwSNCL8YF3hQT7DMXQmme/OaDLitUE=",
+  "Source": "FinalBakery.Api",
+  "BasePath": "_content/FinalBakery.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

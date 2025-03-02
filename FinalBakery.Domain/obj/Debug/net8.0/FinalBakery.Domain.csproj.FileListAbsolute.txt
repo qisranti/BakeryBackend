@@ -1,0 +1,11 @@
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\bin\Debug\net8.0\FinalBakery.Domain.deps.json
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\bin\Debug\net8.0\FinalBakery.Domain.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\bin\Debug\net8.0\FinalBakery.Domain.pdb
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\FinalBakery.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\FinalBakery.Domain.AssemblyInfoInputs.cache
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\FinalBakery.Domain.AssemblyInfo.cs
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\FinalBakery.Domain.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\FinalBakery.Domain.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\refint\FinalBakery.Domain.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\FinalBakery.Domain.pdb
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Domain\obj\Debug\net8.0\ref\FinalBakery.Domain.dll

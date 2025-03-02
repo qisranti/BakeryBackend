@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\finalbakery.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\finalbakery.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\ingredients\\commands\\createingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\ingredients\\commands\\createingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\ingredients\\commands\\createingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\ingredients\\commands\\createingredientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateIngredientCommandHandler.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
+              "RelativeToolTip": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T01:13:14.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateIngredientCommand.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
+              "RelativeToolTip": "FinalBakery.Application\\Features\\Ingredients\\Commands\\CreateIngredientCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T01:13:05.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FinalBakery.Application",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\FinalBakery.Application.csproj",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\FinalBakery.Application.csproj",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\FinalBakery.Application.csproj",
+              "RelativeToolTip": "FinalBakery.Application\\FinalBakery.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-02T00:46:39.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

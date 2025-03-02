@@ -1,0 +1,15 @@
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\bin\Debug\net8.0\FinalBakery.Application.deps.json
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\bin\Debug\net8.0\FinalBakery.Application.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\bin\Debug\net8.0\FinalBakery.Application.pdb
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\bin\Debug\net8.0\FinalBakery.Domain.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\bin\Debug\net8.0\FinalBakery.Domain.pdb
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBakery.Application.csproj.AssemblyReference.cache
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBakery.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBakery.Application.AssemblyInfoInputs.cache
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBakery.Application.AssemblyInfo.cs
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBakery.Application.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBak.F3E491DE.Up2Date
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBakery.Application.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\refint\FinalBakery.Application.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\FinalBakery.Application.pdb
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Application\obj\Debug\net8.0\ref\FinalBakery.Application.dll
