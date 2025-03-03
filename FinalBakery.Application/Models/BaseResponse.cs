@@ -21,7 +21,7 @@ namespace FinalBakery.Application.Models
         public BaseResponse(string message)
         {
             Success = true;
-            message = message;
+            Message = message;
         }
 
         public BaseResponse(string message, bool success)

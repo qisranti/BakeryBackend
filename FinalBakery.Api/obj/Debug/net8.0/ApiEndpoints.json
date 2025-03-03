@@ -1,5 +1,166 @@
 [
   {
+    "ContainingType": "FinalBakery.Api.Controllers.BreadsController",
+    "Method": "AddIngredient",
+    "RelativePath": "api/Breads/AddIngredient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ingredientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.BreadsController",
+    "Method": "AddNewIngredient",
+    "RelativePath": "api/Breads/AddNewIngredient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ingredientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ingredientQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.BreadsController",
+    "Method": "AddNewPreparationStep",
+    "RelativePath": "api/Breads/AddNewPreparationStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stepName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stepDuration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stepOrder",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.BreadsController",
+    "Method": "AddPreparationStep",
+    "RelativePath": "api/Breads/AddPreparationStep",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "preparationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.BreadsController",
+    "Method": "CreateBread",
+    "RelativePath": "api/Breads/createBread",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breadName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "breadCost",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.BreadsController",
+    "Method": "GetAllBreads",
+    "RelativePath": "api/Breads/GetAllBreads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.ChefsController",
+    "Method": "CreateChef",
+    "RelativePath": "api/Chefs/createChef",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chefName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "specialtyBreadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.ChefsController",
+    "Method": "GetAllChefs",
+    "RelativePath": "api/Chefs/getAllChefs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FinalBakery.Api.Controllers.IngredientsController",
     "Method": "CreateIngredient",
     "RelativePath": "api/Ingredients/create",
@@ -21,9 +182,209 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FinalBakery.Api.Controllers.IngredientsController",
+    "Method": "GetBreadIngredients",
+    "RelativePath": "api/Ingredients/getBreadIngredients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "AddBreadToOfficeMenu",
+    "RelativePath": "api/Offices/addBreadToOfficeMenu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "officeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "AssignChefToOffice",
+    "RelativePath": "api/Offices/assignChef",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chefId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "officeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "CreateOffice",
+    "RelativePath": "api/Offices/createOffice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "officeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "officeCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "GetOffices",
+    "RelativePath": "api/Offices/getAllOffices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "GetEarnings",
+    "RelativePath": "api/Offices/getEarnings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "officeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "GetOfficeMenu",
+    "RelativePath": "api/Offices/getMenu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "officeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "PrepareOfficeOrders",
+    "RelativePath": "api/Offices/prepareOfficeOrders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "officeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OrderItemsController",
+    "Method": "CreateOrderItem",
+    "RelativePath": "api/OrderItems/createOrderItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderItemCost",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderItemQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OrderItemsController",
+    "Method": "GetOrderItemsByOrderId",
+    "RelativePath": "api/OrderItems/getOrderItemsByOrderId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OrdersController",
+    "Method": "CreateOffice",
+    "RelativePath": "api/Orders/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "officeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FinalBakery.Api.Controllers.PreparationsController",
-    "Method": "CreateIngredient",
-    "RelativePath": "api/Preparations/create",
+    "Method": "CreatePreparationStep",
+    "RelativePath": "api/Preparations/createPreparationStep",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -37,29 +398,29 @@
         "Name": "stepDuration",
         "Type": "System.Single",
         "IsRequired": false
+      },
+      {
+        "Name": "stepOrder",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FinalBakery.Api.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "FinalBakery.Api.Controllers.PreparationsController",
+    "Method": "GetBreadPreparation",
+    "RelativePath": "api/Preparations/getBreadPreparation",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FinalBakery.Api.WeatherForecast, FinalBakery.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "breadId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

@@ -37,6 +37,15 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL
             services.AddAutoMapper(typeof(MappingsProfile));
             services.AddScoped<IIngredientRepository, IngredientRepository>();
             services.AddScoped<IPreparationRepository, PreparationRepository>();
+            services.AddScoped<IChefRepository, ChefRepository>();
+            services.AddScoped<IBreadRepository, BreadRepository>();
+            services.AddScoped<IBreadIngredientRepository, BreadIngredientRepository>();
+            services.AddScoped<IBreadPreparationRepository, BreadPreparationRepository>();
+            services.AddScoped<IOfficeRepository, OfficeRepository>();
+            services.AddScoped<IOfficeBreadRepository, OfficeBreadRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+
             return services;
         }
     }

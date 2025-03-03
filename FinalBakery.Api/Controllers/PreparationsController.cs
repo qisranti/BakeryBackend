@@ -1,6 +1,8 @@
 ﻿using FinalBakery.Application.DTOs;
 using FinalBakery.Application.Features.Ingredients.Commands;
+using FinalBakery.Application.Features.Ingredients.Queries;
 using FinalBakery.Application.Features.Preparations.Commands;
+using FinalBakery.Application.Features.Preparations.Queries;
 using FinalBakery.Application.Models;
 using FinalBakery.Domain.Entities;
 using MediatR;
@@ -18,12 +20,13 @@ namespace FinalBakery.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost("create")]
-        public async Task<IActionResult> CreateIngredient([FromQuery] string stepName, [FromQuery] float stepDuration)
+        [HttpPost("createPreparationStep")]
+        public async Task<IActionResult> CreatePreparationStep([FromQuery] string stepName, [FromQuery] float stepDuration, [FromQuery] int stepOrder)
         {
             PreparationDTO preparationDTO = new PreparationDTO();
             preparationDTO.Step_Name = stepName;
             preparationDTO.Step_Duration = stepDuration;
+            preparationDTO.Step_Order = stepOrder;
             preparationDTO.Audit = new Domain.Common.AuditInfo()
             {
                 CreatedBy = "Isra",
@@ -42,6 +45,13 @@ namespace FinalBakery.Api.Controllers
                 return Ok(response);
             else
                 return BadRequest(response);
+        }
+
+        [HttpGet("getBreadPreparation")]
+        public async Task<IActionResult> GetBreadPreparation([FromQuery] int breadId)
+        {
+            GetPreparationStepsByBreadQuery getPreparationStepsByBreadQuery = new GetPreparationStepsByBreadQuery() { BreadId = breadId };
+            return Ok(await _mediator.Send(getPreparationStepsByBreadQuery));
         }
     }
 }

@@ -35,6 +35,7 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Configurations
             builder.HasOne(office => office.Chef)
                    .WithOne(chef => chef.Office)
                    .HasForeignKey<OfficeEntity>(office => office.ChefId)
+                   .IsRequired(false)
                    .OnDelete(DeleteBehavior.Restrict);
             builder.HasMany(office => office.Office_Menu)
                 .WithMany(bread => bread.Offices)

@@ -10,7 +10,7 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities
     public class BreadInstancePreparationEntity : BaseEntity, IAuditableEntity
     {
         public int BreadInstanceId { get; set; }
-        public BreadInstanceEntity BreadInstance { get; set; } = default!;
+        public BreadEntity BreadInstance { get; set; } = default!;
 
         public int PreparationId { get; set; }
         public PreparationEntity Preparation { get; set; } = default!;

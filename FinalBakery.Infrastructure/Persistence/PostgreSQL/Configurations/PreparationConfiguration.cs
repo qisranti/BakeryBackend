@@ -28,6 +28,9 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Configurations
             builder.Property(preparation => preparation.Step_Duration)
                 .HasColumnName("step_duration")
                 .IsRequired();
+            builder.Property(preparation => preparation.Step_Order)
+                .HasColumnName("step_order")
+                .IsRequired();
         }
 
         private void ConfigureRelationShips(EntityTypeBuilder<PreparationEntity> builder)

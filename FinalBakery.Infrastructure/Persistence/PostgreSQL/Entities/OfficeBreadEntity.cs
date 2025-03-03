@@ -10,10 +10,10 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities
     public class OfficeBreadEntity : BaseEntity, IAuditableEntity
     {
         public int OfficeId { get; set; }
-        public OfficeEntity Office { get; set; } = new OfficeEntity();
+        public OfficeEntity Office { get; set; } = default!;
 
         public int BreadId { get; set; }
-        public BreadEntity Bread { get; set; } = new BreadEntity();
+        public BreadEntity Bread { get; set; } = default!;
 
         public AuditInfo Audit { get; set; } = default!;
     }

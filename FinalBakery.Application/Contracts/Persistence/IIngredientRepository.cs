@@ -11,5 +11,7 @@ namespace FinalBakery.Application.Contracts.Persistence
     public interface IIngredientRepository : IBaseRepository<Ingredient>
     {
         Task<Ingredient?> GetByNameAsync(string name);
+
+        Task<List<Ingredient>> GetIngredients(int breadId);
     }
 }

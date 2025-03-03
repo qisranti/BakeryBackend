@@ -11,8 +11,7 @@ namespace FinalBakery.Domain.Entities
     {
         public string Office_Name { get; set; } = string.Empty;
         public int Office_Capacity { get; set; }
-        public Chef Chef { get; set; } = default!;
-        public ICollection<Bread> Office_Menu { get; set; } = [];
+        public int? ChefId { get; set; } = default!;
         public AuditInfo Audit { get; set; } = default!;
     }
 }

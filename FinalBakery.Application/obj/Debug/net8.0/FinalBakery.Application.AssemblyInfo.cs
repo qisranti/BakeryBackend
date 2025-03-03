@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinalBakery.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c44b5f7a43eb302069e40860d6dc1e42b22b02d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e44fb4e5e63e66d93c15028fa64e96fcce61278")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinalBakery.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinalBakery.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,7 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities
     {
         public string Step_Name { get; set; } = string.Empty;
         public float Step_Duration { get; set; }
+        public int Step_Order { get; set; }
         public ICollection<BreadInstancePreparationEntity> BreadInstances { get; set; } = [];
         public AuditInfo Audit { get; set; } = default!;
     }

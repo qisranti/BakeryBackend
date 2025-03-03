@@ -30,9 +30,6 @@ namespace FinalBakery.Infrastructure.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BreadInstanceId")
-                        .HasColumnType("integer");
-
                     b.Property<float>("Bread_Cost")
                         .HasColumnType("real");
 
@@ -43,19 +40,7 @@ namespace FinalBakery.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BreadInstanceId");
-
                     b.ToTable("bread", (string)null);
-                });
-
-            modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("bread_instance", (string)null);
                 });
 
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceIngredientEntity", b =>
@@ -175,7 +160,7 @@ namespace FinalBakery.Infrastructure.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ChefId")
+                    b.Property<int?>("ChefId")
                         .HasColumnType("integer");
 
                     b.Property<int>("Office_Capacity")
@@ -270,6 +255,10 @@ namespace FinalBakery.Infrastructure.Migrations
                         .HasColumnType("text")
                         .HasColumnName("step_name");
 
+                    b.Property<int>("Step_Order")
+                        .HasColumnType("integer")
+                        .HasColumnName("step_order");
+
                     b.HasKey("Id");
 
                     b.ToTable("preparation", (string)null);
@@ -277,12 +266,6 @@ namespace FinalBakery.Infrastructure.Migrations
 
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadEntity", b =>
                 {
-                    b.HasOne("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceEntity", "BreadInstance")
-                        .WithMany()
-                        .HasForeignKey("BreadInstanceId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.OwnsOne("FinalBakery.Domain.Common.AuditInfo", "Audit", b1 =>
                         {
                             b1.Property<int>("BreadEntityId")
@@ -316,58 +299,11 @@ namespace FinalBakery.Infrastructure.Migrations
 
                     b.Navigation("Audit")
                         .IsRequired();
-
-                    b.Navigation("BreadInstance");
-                });
-
-            modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceEntity", b =>
-                {
-                    b.HasOne("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.OrderItemEntity", "OrderItemEntity")
-                        .WithOne("BreadInstance")
-                        .HasForeignKey("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceEntity", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.OwnsOne("FinalBakery.Domain.Common.AuditInfo", "Audit", b1 =>
-                        {
-                            b1.Property<int>("BreadInstanceEntityId")
-                                .HasColumnType("integer");
-
-                            b1.Property<string>("CreatedBy")
-                                .IsRequired()
-                                .HasColumnType("text")
-                                .HasColumnName("created_by");
-
-                            b1.Property<DateTime>("CreatedDate")
-                                .HasColumnType("timestamp with time zone")
-                                .HasColumnName("created_at");
-
-                            b1.Property<string>("UpdatedBy")
-                                .IsRequired()
-                                .HasColumnType("text")
-                                .HasColumnName("updated_by");
-
-                            b1.Property<DateTime?>("UpdatedDate")
-                                .HasColumnType("timestamp with time zone")
-                                .HasColumnName("updated_at");
-
-                            b1.HasKey("BreadInstanceEntityId");
-
-                            b1.ToTable("bread_instance");
-
-                            b1.WithOwner()
-                                .HasForeignKey("BreadInstanceEntityId");
-                        });
-
-                    b.Navigation("Audit")
-                        .IsRequired();
-
-                    b.Navigation("OrderItemEntity");
                 });
 
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceIngredientEntity", b =>
                 {
-                    b.HasOne("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceEntity", "BreadInstance")
+                    b.HasOne("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadEntity", "BreadInstance")
                         .WithMany("BreadIngredients")
                         .HasForeignKey("BreadInstanceId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -420,7 +356,7 @@ namespace FinalBakery.Infrastructure.Migrations
 
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstancePreparationEntity", b =>
                 {
-                    b.HasOne("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceEntity", "BreadInstance")
+                    b.HasOne("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadEntity", "BreadInstance")
                         .WithMany("BreadPreparation")
                         .HasForeignKey("BreadInstanceId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -614,8 +550,7 @@ namespace FinalBakery.Infrastructure.Migrations
                     b.HasOne("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.ChefEntity", "Chef")
                         .WithOne("Office")
                         .HasForeignKey("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.OfficeEntity", "ChefId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.OwnsOne("FinalBakery.Domain.Common.AuditInfo", "Audit", b1 =>
                         {
@@ -795,18 +730,15 @@ namespace FinalBakery.Infrastructure.Migrations
 
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadEntity", b =>
                 {
+                    b.Navigation("BreadIngredients");
+
+                    b.Navigation("BreadPreparation");
+
                     b.Navigation("Chefs");
 
                     b.Navigation("OfficesBreads");
 
                     b.Navigation("OrderItems");
-                });
-
-            modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.BreadInstanceEntity", b =>
-                {
-                    b.Navigation("BreadIngredients");
-
-                    b.Navigation("BreadPreparation");
                 });
 
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.ChefEntity", b =>
@@ -830,12 +762,6 @@ namespace FinalBakery.Infrastructure.Migrations
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.OrderEntity", b =>
                 {
                     b.Navigation("Items");
-                });
-
-            modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.OrderItemEntity", b =>
-                {
-                    b.Navigation("BreadInstance")
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities.PreparationEntity", b =>

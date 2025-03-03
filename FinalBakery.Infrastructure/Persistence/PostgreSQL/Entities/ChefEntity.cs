@@ -11,7 +11,7 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities
     {
         public string Chef_Name { get; set; } = string.Empty;
         public int SpecialtyBreadId { get; set; }
-        public OfficeEntity Office { get; set; } = new OfficeEntity();
+        public OfficeEntity Office { get; set; } = default!;
         public BreadEntity SpecialtyBread { get; set; } = default!;
         public AuditInfo Audit { get; set; } = default!;
     }

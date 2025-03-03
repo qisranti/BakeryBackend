@@ -10,7 +10,7 @@ namespace FinalBakery.Domain.Entities
     public class Chef : BaseEntity, IAuditableEntity
     {
         public string Chef_Name { get; set; } = string.Empty;
-        public Bread Chef_Specialty { get; set; } = default!;
+        public int SpecialtyBreadId { get; set; }
         public AuditInfo Audit { get; set; } = default!;
     }
 }

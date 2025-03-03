@@ -9,7 +9,8 @@ namespace FinalBakery.Domain.Entities
 {
     public class OrderItem : BaseEntity, IAuditableEntity
     {
-        public Bread Bread { get; set; } = default!;
+        public int BreadId { get; set; }
+        public int OrderId { get; set; }
         public int OrderItem_Cost { get; set; }
         public int OrderItem_Quantity { get; set; }
         public AuditInfo Audit { get; set; } = default!;

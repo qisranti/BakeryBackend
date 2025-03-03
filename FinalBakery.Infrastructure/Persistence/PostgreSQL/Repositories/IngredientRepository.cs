@@ -25,5 +25,20 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Repositories
                 .FirstOrDefaultAsync(ingredient => ingredient.Ingredient_Name == name);
             return ingredientEntity is not null ? _mapper.Map<Ingredient>(ingredientEntity) : null;
         }
+        public async Task<List<Ingredient>> GetIngredients(int breadId)
+        {
+            var breadIngredients = await _context.BreadIngredients
+                .Where(breadIngredients => breadIngredients.BreadInstanceId == breadId)
+                .Select(breadIngredients => breadIngredients.IngredientId)
+                .ToListAsync();
+
+            var ingredients = await _context.Ingredients
+                .Where(ingredient => breadIngredients.Contains(ingredient.Id))
+                .ToListAsync();
+
+            var ingredientsList = _mapper.Map<List<Ingredient>>(ingredients);
+
+            return ingredientsList;
+        }
     }
 }

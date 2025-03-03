@@ -10,5 +10,6 @@ namespace FinalBakery.Application.Contracts.Persistence
     public interface IPreparationRepository : IBaseRepository<Preparation>
     {
         Task<Preparation?> GetByNameAsync(string name);
+        Task<List<Preparation>> GetPreparations(int breadId);
     }
 }

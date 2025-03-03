@@ -1,5 +1,6 @@
 ﻿using FinalBakery.Application.DTOs;
 using FinalBakery.Application.Features.Ingredients.Commands;
+using FinalBakery.Application.Features.Ingredients.Queries;
 using FinalBakery.Application.Models;
 using FinalBakery.Domain.Entities;
 using MediatR;
@@ -41,6 +42,13 @@ namespace FinalBakery.Api.Controllers
                 return Ok(response);
             else
                 return BadRequest(response);
+        }
+
+        [HttpGet("getBreadIngredients")]
+        public async Task<IActionResult> GetBreadIngredients([FromQuery] int breadId)
+        {
+            GetIngredientsByBreadQuery getIngredientsByBreadQuery = new GetIngredientsByBreadQuery() { BreadId = breadId };
+            return Ok(await _mediator.Send(getIngredientsByBreadQuery));
         }
     }
 }

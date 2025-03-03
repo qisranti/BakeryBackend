@@ -18,8 +18,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Ingredients\Queries\" />
-    <Folder Include="Features\Preparations\Queries\" />
+    <Folder Include="Features\Orders\Queries\" />
   </ItemGroup>
 
 </Project>
