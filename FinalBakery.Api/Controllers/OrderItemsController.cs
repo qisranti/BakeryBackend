@@ -21,12 +21,12 @@ namespace FinalBakery.Api.Controllers
         }
 
         [HttpPost("createOrderItem")]
-        public async Task<IActionResult> CreateOrderItem([FromQuery] int orderId, [FromQuery] int breadId, [FromQuery] int orderItemCost, [FromQuery] int orderItemQuantity)
+        public async Task<IActionResult> CreateOrderItem([FromQuery] int orderId, [FromQuery] int breadId, [FromQuery] int orderItemPrice, [FromQuery] int orderItemQuantity)
         {
             OrderItemDTO orderItemDTO = new OrderItemDTO();
             orderItemDTO.BreadId = breadId;
             orderItemDTO.OrderId = orderId;
-            orderItemDTO.OrderItem_Cost = orderItemCost;
+            orderItemDTO.OrderItem_Cost = orderItemPrice;
             orderItemDTO.OrderItem_Quantity = orderItemQuantity;
             orderItemDTO.Audit = new Domain.Common.AuditInfo()
             {

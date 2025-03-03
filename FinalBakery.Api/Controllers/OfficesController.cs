@@ -4,6 +4,8 @@ using FinalBakery.Application.Features.Breads.Queries;
 using FinalBakery.Application.Features.Ingredients.Queries;
 using FinalBakery.Application.Features.Offices.Commands;
 using FinalBakery.Application.Features.Offices.Queries;
+using FinalBakery.Application.Features.OrderItems.Queries;
+using FinalBakery.Application.Features.Orders.Queries;
 using FinalBakery.Application.Features.Preparations.Commands;
 using FinalBakery.Application.Models;
 using FinalBakery.Domain.Entities;
@@ -78,6 +80,13 @@ namespace FinalBakery.Api.Controllers
             return Ok(await _mediator.Send(getAllOfficesQuery));
         }
 
+        [HttpGet("getOfficeOrders")]
+        public async Task<IActionResult> GetOfficeOrders([FromQuery] int officeId)
+        {
+            GetOfficeOrdersQuery getOfficeOrdersQuery = new GetOfficeOrdersQuery() { OfficeId = officeId };
+            return Ok(await _mediator.Send(getOfficeOrdersQuery));
+        }
+
         [HttpGet("getMenu")]
         public async Task<IActionResult> GetOfficeMenu([FromQuery] int officeId)
         {
@@ -85,16 +94,32 @@ namespace FinalBakery.Api.Controllers
             return Ok(await _mediator.Send(getOfficeMenu));
         }
 
-        [HttpGet("getEarnings")]
+        [HttpGet("getTodayEarnings")]
         public async Task<IActionResult> GetEarnings([FromQuery] int officeId)
         {
-            return Ok();
+            CalculateEarningsQuery calculateEarningsQuery = new CalculateEarningsQuery()
+            {
+                OfficeId = officeId
+            };
+            CreateComandResponse<OfficeEarnings> response = await _mediator.Send(calculateEarningsQuery);
+            if (response.Success)
+                return Ok(response);
+            else
+                return BadRequest(response);
         }
 
         [HttpPost("prepareOfficeOrders")]
         public async Task<IActionResult> PrepareOfficeOrders([FromQuery] int officeId)
         {
-            return Ok();
+            PrepareOfficeOrdersCommand prepareOfficeOrdersCommand = new PrepareOfficeOrdersCommand()
+            {
+                OfficeId = officeId
+            };
+            CreateComandResponse<List<OrderPreparation>> response = await _mediator.Send(prepareOfficeOrdersCommand);
+            if (response.Success)
+                return Ok(response);
+            else
+                return BadRequest(response);
         }
 
 

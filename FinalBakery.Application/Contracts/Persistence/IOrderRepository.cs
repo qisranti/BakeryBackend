@@ -9,7 +9,8 @@ namespace FinalBakery.Application.Contracts.Persistence
 {
     public interface IOrderRepository : IBaseRepository<Order>
     {
-        
+        Task<List<Order>> GetAllOrders();
+        Task<List<Order>> GetOfficeOrders(int officeId);
 
     }
 }

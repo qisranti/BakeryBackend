@@ -13,6 +13,7 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Entities
         public int OfficeId { get; set; }
         public OfficeEntity Office { get; set; } = default!;
         public float Order_Total_Cost { get; set; }
+        public int Order_Status { get; set; } = 0;
         public ICollection<OrderItemEntity> Items { get; set; } = default!;
         public AuditInfo Audit { get; set; } = default!;
     }

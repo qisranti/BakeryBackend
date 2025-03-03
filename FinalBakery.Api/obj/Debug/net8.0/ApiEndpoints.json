@@ -272,8 +272,8 @@
   },
   {
     "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
-    "Method": "GetEarnings",
-    "RelativePath": "api/Offices/getEarnings",
+    "Method": "GetOfficeMenu",
+    "RelativePath": "api/Offices/getMenu",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -288,8 +288,24 @@
   },
   {
     "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
-    "Method": "GetOfficeMenu",
-    "RelativePath": "api/Offices/getMenu",
+    "Method": "GetOfficeOrders",
+    "RelativePath": "api/Offices/getOfficeOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "officeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OfficesController",
+    "Method": "GetEarnings",
+    "RelativePath": "api/Offices/getTodayEarnings",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -337,7 +353,7 @@
         "IsRequired": false
       },
       {
-        "Name": "orderItemCost",
+        "Name": "orderItemPrice",
         "Type": "System.Int32",
         "IsRequired": false
       },
@@ -379,6 +395,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalBakery.Api.Controllers.OrdersController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Orders/getAllOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

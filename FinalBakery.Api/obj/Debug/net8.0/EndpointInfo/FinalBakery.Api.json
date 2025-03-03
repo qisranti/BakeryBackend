@@ -351,6 +351,28 @@
         }
       }
     },
+    "/api/Offices/getOfficeOrders": {
+      "get": {
+        "tags": [
+          "Offices"
+        ],
+        "parameters": [
+          {
+            "name": "officeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Offices/getMenu": {
       "get": {
         "tags": [
@@ -373,7 +395,7 @@
         }
       }
     },
-    "/api/Offices/getEarnings": {
+    "/api/Offices/getTodayEarnings": {
       "get": {
         "tags": [
           "Offices"
@@ -470,7 +492,7 @@
             }
           },
           {
-            "name": "orderItemCost",
+            "name": "orderItemPrice",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -529,6 +551,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Orders/getAllOrders": {
+      "get": {
+        "tags": [
+          "Orders"
         ],
         "responses": {
           "200": {

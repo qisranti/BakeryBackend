@@ -30,11 +30,7 @@ namespace FinalBakery.Application.Features.OrderItems.Commands
         {
             try
             {
-                OrderItem orderItem = await _orderItemRepository.GetByIdAsync(request.OrderItemDto.Id);
-                if (orderItem != null)
-                    return new CreateComandResponse<OrderItem>(orderItem, "Success", true);
-                OrderItem orderItemToCreate = _mapper.Map<OrderItem>(request.OrderItemDto);
-                OrderItem orderItemCreated = await _orderItemRepository.AddAsync(orderItemToCreate);
+                OrderItem orderItemCreated = await _orderItemRepository.CreateOrderItem(request.OrderItemDto.OrderId, request.OrderItemDto.BreadId, request.OrderItemDto.OrderItem_Cost, request.OrderItemDto.OrderItem_Quantity);
                 return new CreateComandResponse<OrderItem>(orderItemCreated, "Success", true);
             }
             catch (Exception ex)

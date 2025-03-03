@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\repositories\\calculateearningsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\repositories\\calculateearningsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\offices\\queries\\calculateearningsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\offices\\queries\\calculateearningsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\offices\\queries\\calculateearningsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\offices\\queries\\calculateearningsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.api\\controllers\\officescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|solutionrelative:finalbakery.api\\controllers\\officescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.api\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|solutionrelative:finalbakery.api\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D9E22BE-4DA1-40AF-8F51-653C03C92369}|FinalBakery.Domain\\FinalBakery.Domain.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.domain\\entities\\officeearnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D9E22BE-4DA1-40AF-8F51-653C03C92369}|FinalBakery.Domain\\FinalBakery.Domain.csproj|solutionrelative:finalbakery.domain\\entities\\officeearnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwDAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T18:24:40.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OfficesController.cs",
               "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\OfficesController.cs",
               "RelativeDocumentMoniker": "FinalBakery.Api\\Controllers\\OfficesController.cs",
               "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\OfficesController.cs",
               "RelativeToolTip": "FinalBakery.Api\\Controllers\\OfficesController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T08:17:37.523Z",
+              "WhenOpened": "2025-03-03T18:23:35.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderItemsController.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\OrderItemsController.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Api\\Controllers\\OrderItemsController.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\OrderItemsController.cs",
-              "RelativeToolTip": "FinalBakery.Api\\Controllers\\OrderItemsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAiwDIAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CalculateEarningsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
+              "RelativeToolTip": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T08:10:36.577Z",
+              "WhenOpened": "2025-03-03T18:17:26.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculateEarningsQuery.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
+              "RelativeToolTip": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T18:17:20.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculateEarningsRepository.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs*",
+              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:48:46.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OfficeEarnings.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
+              "RelativeDocumentMoniker": "FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
+              "RelativeToolTip": "FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:40:29.669Z",
               "EditorCaption": ""
             }
           ]

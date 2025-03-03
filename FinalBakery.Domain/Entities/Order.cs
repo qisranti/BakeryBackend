@@ -11,6 +11,7 @@ namespace FinalBakery.Domain.Entities
     {
         public int OfficeId { get; set; } = default!;
         public int Order_Total_Cost { get; set; } = 0;
+        public int Order_Status { get; set; } = 0;
         public ICollection<OrderItem> OrderItems { get; set; } = [];
         public AuditInfo Audit { get; set; } = default!;
     }

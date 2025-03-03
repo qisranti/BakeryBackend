@@ -45,6 +45,8 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL
             services.AddScoped<IOfficeBreadRepository, OfficeBreadRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+            services.AddScoped<IPrepareOrderRepository, PrepareOrdersRepository>();
+            services.AddScoped<ICalculateEarningsRepository, CalculateEarningsRepository>();
 
             return services;
         }

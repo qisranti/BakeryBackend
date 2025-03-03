@@ -1,6 +1,8 @@
 ﻿using FinalBakery.Application.DTOs;
 using FinalBakery.Application.Features.Offices.Commands;
+using FinalBakery.Application.Features.Offices.Queries;
 using FinalBakery.Application.Features.Orders.Commands;
+using FinalBakery.Application.Features.Orders.Queries;
 using FinalBakery.Application.Models;
 using FinalBakery.Domain.Entities;
 using MediatR;
@@ -42,5 +44,14 @@ namespace FinalBakery.Api.Controllers
             else
                 return BadRequest(response);
         }
+
+        [HttpGet("getAllOrders")]
+        public async Task<IActionResult> GetAllOrders()
+        {
+            GetAllOrdersQuery getAllOrdersQuery = new GetAllOrdersQuery();
+            return Ok(await _mediator.Send(getAllOrdersQuery));
+        }
+
+
     }
 }

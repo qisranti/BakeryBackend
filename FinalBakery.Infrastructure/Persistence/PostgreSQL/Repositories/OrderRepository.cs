@@ -18,6 +18,22 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Repositories
         {
             _mapper = mapper;
         }
-        
+
+        public async Task<List<Order>> GetAllOrders()
+        {
+            var offices = await _context.Orders.ToListAsync();
+            return _mapper.Map<List<Order>>(offices);
+        }
+
+        public async Task<List<Order>> GetOfficeOrders(int officeId)
+        {
+            var orders = await _context.Orders
+                .Where(order => order.OfficeId == officeId)
+                .ToListAsync();
+
+            var ordersList = _mapper.Map<List<Order>>(orders);
+
+            return ordersList;
+        }
     }
 }

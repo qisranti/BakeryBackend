@@ -191,6 +191,9 @@ namespace FinalBakery.Infrastructure.Migrations
                     b.Property<int>("OfficeId")
                         .HasColumnType("integer");
 
+                    b.Property<int>("Order_Status")
+                        .HasColumnType("integer");
+
                     b.Property<float>("Order_Total_Cost")
                         .HasColumnType("real")
                         .HasColumnName("order_total_cost");
