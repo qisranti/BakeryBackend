@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\officeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\officeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\preparationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\preparationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\models\\apipreparationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\models\\apipreparationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\officeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\officeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +54,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProfitService.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ProfitService.cs",
-              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\ProfitService.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ProfitService.cs",
-              "RelativeToolTip": "BakeryConsoleApp\\Services\\ProfitService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "OrderItemService.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\OrderItemService.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OrderItemService.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\OrderItemService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T04:19:53.746Z",
+              "WhenOpened": "2025-03-12T12:59:29.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\MenuService.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\MenuService.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\MenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:59:13.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ApiEarningsResponse.cs",
               "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Models\\ApiEarningsResponse.cs",
               "RelativeDocumentMoniker": "BakeryConsoleApp\\Models\\ApiEarningsResponse.cs",
@@ -63,12 +88,11 @@
               "RelativeToolTip": "BakeryConsoleApp\\Models\\ApiEarningsResponse.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T04:22:37.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T04:22:37.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ApiPreparationResponse.cs",
               "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Models\\ApiPreparationResponse.cs",
               "RelativeDocumentMoniker": "BakeryConsoleApp\\Models\\ApiPreparationResponse.cs",
@@ -76,47 +100,71 @@
               "RelativeToolTip": "BakeryConsoleApp\\Models\\ApiPreparationResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T03:56:07.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T03:56:07.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PreparationService.cs",
               "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\PreparationService.cs",
               "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\PreparationService.cs",
               "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\PreparationService.cs",
               "RelativeToolTip": "BakeryConsoleApp\\Services\\PreparationService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBkAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T03:49:51.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "OfficeService.cs",
               "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OfficeService.cs",
               "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\OfficeService.cs",
               "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OfficeService.cs",
               "RelativeToolTip": "BakeryConsoleApp\\Services\\OfficeService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T03:47:13.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\OrderService.cs",
               "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OrderService.cs",
               "RelativeToolTip": "BakeryConsoleApp\\Services\\OrderService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwCIAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwDsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T03:47:12.474Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleUI.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ConsoleUI.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\ConsoleUI.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ConsoleUI.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\ConsoleUI.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAMwD0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:00:03.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfitService.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ProfitService.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\ProfitService.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ProfitService.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\ProfitService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T04:19:53.746Z"
             }
           ]
         }

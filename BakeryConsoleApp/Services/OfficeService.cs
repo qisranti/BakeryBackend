@@ -52,7 +52,11 @@ namespace BakeryConsoleApp.Services
                         {
                             case "1":
                                 Console.Clear();
-                                var orderService = new OrderService();
+                                var menuService = new MenuService();
+                                var orderItemService = new OrderItemService();
+                                var consoleUI = new ConsoleUI();
+                                var orderService = new OrderService(menuService, orderItemService, consoleUI);
+
                                 await orderService.MakeOrderAsync(selectedOffice, _client);
                                 break;
                             case "2":

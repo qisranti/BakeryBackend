@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BakeryConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd7e647c6572732a44e8459fb9a9f63c87b51df9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52db3f6f11b727d94ff5720aee6887b20d4b8d6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BakeryConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BakeryConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

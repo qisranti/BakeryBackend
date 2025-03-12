@@ -14,102 +14,68 @@ namespace BakeryConsoleApp.Services
 {
     public class OrderService
     {
+        private readonly MenuService _menuService;
+        private readonly OrderItemService _orderItemService;
+        private readonly ConsoleUI _consoleUI;
+
+        public OrderService(MenuService menuService, OrderItemService orderItemService, ConsoleUI consoleUI)
+        {
+            _menuService = menuService;
+            _orderItemService = orderItemService;
+            _consoleUI = consoleUI;
+        }
+
         public async Task MakeOrderAsync(Office office, HttpClient client)
         {
-            var orderCreationResponse = await client.PostAsync($"Orders/create?officeId={office.Id}", null);
-            if (orderCreationResponse.IsSuccessStatusCode)
+            var order = await CreateOrderAsync(office, client);
+
+            if (order == null)
             {
-                var order = await orderCreationResponse.Content.ReadFromJsonAsync<OrderResponse>();
-                Console.Clear();
-                Console.WriteLine($"{office.Office_Name}");
-                Console.WriteLine($"This is the order #{order.Entity.Id}");
-
-                bool continueAddingItems = true;
-
-                while (continueAddingItems)
-                {
-                    var response = await client.GetAsync($"Offices/getMenu?officeId={office.Id}");
-                    if (response.IsSuccessStatusCode)
-                    {
-                        var officeMenu = await response.Content.ReadFromJsonAsync<List<Bread>>();
-                        Console.WriteLine("Menú de la Oficina:");
-                        for (int i = 0; i < officeMenu.Count; i++)
-                        {
-                            Console.WriteLine($"{i + 1}. {officeMenu[i].Bread_Name} - {officeMenu[i].Bread_Cost} $us");
-                        }
-
-                        Console.WriteLine("\nSelecciona una opción (número):");
-                        string breadSelected = Console.ReadLine();
-                        if (int.TryParse(breadSelected, out int selectedIndex) &&
-                            selectedIndex >= 1 && selectedIndex <= officeMenu.Count)
-                        {
-                            Console.WriteLine("\nIngresa la cantidad:");
-                            string quantity = Console.ReadLine();
-
-                            var selectedBread = officeMenu[selectedIndex - 1];
-                            if (int.TryParse(quantity, out int quantityInt) && quantityInt > 0)
-                            {
-                                Console.WriteLine("\nIngresa el precio de venta:");
-                                string breadSellPrice = Console.ReadLine();
-                                if (int.TryParse(breadSellPrice, out int breadSellPriceInt) && breadSellPriceInt > selectedBread.Bread_Cost)
-                                {
-                                    var orderId = order.Entity.Id;
-                                    var breadId = selectedBread.Id;
-                                    var orderItemPrice = breadSellPriceInt;
-                                    var orderItemQuantity = quantityInt;
-
-                                    var url = $"OrderItems/createOrderItem?orderId={orderId}&breadId={breadId}&orderItemPrice={orderItemPrice}&orderItemQuantity={orderItemQuantity}";
-
-                                    var orderResponse = await client.PostAsync(url, null);
-
-                                    var errorContent = await orderResponse.Content.ReadAsStringAsync();
-
-                                    var responseObject = JsonConvert.DeserializeObject<ApiResponse>(errorContent);
-
-                                    if (responseObject.success)
-                                    {
-                                        Console.WriteLine("¡Pedido realizado con éxito!");
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine($"Error al realizar el pedido: {responseObject.message}");
-                                    }
-
-                                    Console.WriteLine("\n¿Deseas agregar otro artículo? (s/n):");
-                                    string continueInput = Console.ReadLine();
-                                    Console.Clear();
-                                    if (continueInput?.ToLower() != "s")
-                                    {
-                                        continueAddingItems = false; 
-                                    }
-                                }
-                                else
-                                {
-                                    Console.WriteLine("El precio de venta debe ser mayor que el costo del pan.");
-                                }
-                            }
-                            else
-                            {
-                                Console.WriteLine("Cantidad inválida");
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("Opción inválida");
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("Error al obtener el menú de la oficina.");
-                        continueAddingItems = false; 
-                    }
-                }
+                _consoleUI.ShowError("Error al crear el pedido.");
+                return;
             }
-            else
+
+            _consoleUI.ShowOrderHeader(office, order);
+
+            bool continueAddingItems = true;
+
+            while (continueAddingItems)
             {
-                Console.WriteLine("Error al crear el pedido.");
+                var menu = await _menuService.GetOfficeMenuAsync(client, office.Id);
+                if (menu == null)
+                {
+                    _consoleUI.ShowError("Error al obtener el menú de la oficina.");
+                    break;
+                }
+
+                var selectedBread = _consoleUI.SelectBread(menu);
+                if (selectedBread == null) continue;
+
+                int? quantity = _consoleUI.GetQuantity();
+                if (quantity == null) continue;
+
+                int? sellPrice = _consoleUI.GetSellPrice((int)selectedBread.Bread_Cost);
+                if (sellPrice == null) continue;
+
+                var success = await _orderItemService.CreateOrderItemAsync(client, order.Entity.Id, selectedBread.Id, sellPrice.Value, quantity.Value);
+
+                if (success)
+                    _consoleUI.ShowMessage("Genial!");
+                else
+                    _consoleUI.ShowError("Error!");
+
+                continueAddingItems = _consoleUI.AskToContinue();
             }
         }
 
+        private async Task<OrderResponse?> CreateOrderAsync(Office office, HttpClient client)
+        {
+            var response = await client.PostAsync($"Orders/create?officeId={office.Id}", null);
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadFromJsonAsync<OrderResponse>();
+            }
+            return null;
+        }
     }
 }
