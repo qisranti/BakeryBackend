@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FinalBakery.Api\\FinalBakery.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BakeryConsoleApp\\BakeryConsoleApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

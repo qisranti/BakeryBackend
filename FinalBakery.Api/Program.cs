@@ -1,3 +1,4 @@
+using FinalBakery.Api;
 using FinalBakery.Application.Mappings;
 using FinalBakery.Infrastructure.Persistence.PostgreSQL;
 
@@ -23,6 +24,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseHttpsRedirection();
 

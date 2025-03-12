@@ -42,7 +42,7 @@ namespace FinalBakery.Infrastructure.Persistence.PostgreSQL.Repositories
                     var breads = await _context.Breads
                         .FirstOrDefaultAsync(bread => bread.Id == orderItem.BreadId);
                     
-                    totalPreparationCost = (int)(totalPreparationCost + breads.Bread_Cost);
+                    totalPreparationCost = (int)(totalPreparationCost + (breads.Bread_Cost)*orderItem.OrderItem_Quantity);
 
                     totalSells = (int)(totalSells + (orderItem.OrderItem_Cost * orderItem.OrderItem_Quantity));
                 }

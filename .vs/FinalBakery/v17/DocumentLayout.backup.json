@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\repositories\\calculateearningsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\repositories\\calculateearningsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\preparationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\preparationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.infrastructure\\persistence\\postgresql\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B87B7CD9-4C38-4D72-B605-41250E46F2E9}|FinalBakery.Infrastructure\\FinalBakery.Infrastructure.csproj|solutionrelative:finalbakery.infrastructure\\persistence\\postgresql\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\profitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\profitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\offices\\queries\\calculateearningsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\offices\\queries\\calculateearningsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\models\\apiearningsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\models\\apiearningsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.application\\features\\offices\\queries\\calculateearningsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EA73BAD-06F6-4EEF-99D1-02F034A7FB12}|FinalBakery.Application\\FinalBakery.Application.csproj|solutionrelative:finalbakery.application\\features\\offices\\queries\\calculateearningsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\models\\apipreparationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\models\\apipreparationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.api\\controllers\\officescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B8DBFD-AFB2-4BBB-8D03-3FE4563C3213}|FinalBakery.Api\\FinalBakery.Api.csproj|solutionrelative:finalbakery.api\\controllers\\officescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\officeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\officeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D9E22BE-4DA1-40AF-8F51-653C03C92369}|FinalBakery.Domain\\FinalBakery.Domain.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\finalbakery.domain\\entities\\officeearnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9E22BE-4DA1-40AF-8F51-653C03C92369}|FinalBakery.Domain\\FinalBakery.Domain.csproj|solutionrelative:finalbakery.domain\\entities\\officeearnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|c:\\bootcamp\\backend\\final project\\finalbakery\\bakeryconsoleapp\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EF9F84-5730-4B4C-A470-E5A7445F4CE0}|BakeryConsoleApp\\BakeryConsoleApp.csproj|solutionrelative:bakeryconsoleapp\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,79 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PersistenceServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
-              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\PersistenceServiceRegistration.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwDAAAABcAAAAAAAAAA==",
+              "Title": "ProfitService.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ProfitService.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\ProfitService.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\ProfitService.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\ProfitService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:24:40.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OfficesController.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\OfficesController.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Api\\Controllers\\OfficesController.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Api\\Controllers\\OfficesController.cs",
-              "RelativeToolTip": "FinalBakery.Api\\Controllers\\OfficesController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:23:35.776Z",
+              "WhenOpened": "2025-03-12T04:19:53.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CalculateEarningsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
-              "RelativeToolTip": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQueryHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCQAAAANAAAAAAAAAA==",
+              "Title": "ApiEarningsResponse.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Models\\ApiEarningsResponse.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Models\\ApiEarningsResponse.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Models\\ApiEarningsResponse.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Models\\ApiEarningsResponse.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:17:26.4Z",
+              "WhenOpened": "2025-03-12T04:22:37.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CalculateEarningsQuery.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
-              "RelativeToolTip": "FinalBakery.Application\\Features\\Offices\\Queries\\CalculateEarningsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "ApiPreparationResponse.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Models\\ApiPreparationResponse.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Models\\ApiPreparationResponse.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Models\\ApiPreparationResponse.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Models\\ApiPreparationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:17:20.79Z",
+              "WhenOpened": "2025-03-12T03:56:07.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CalculateEarningsRepository.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs*",
-              "RelativeToolTip": "FinalBakery.Infrastructure\\Persistence\\PostgreSQL\\Repositories\\CalculateEarningsRepository.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAAA1AAAAAAAAAA==",
+              "Title": "PreparationService.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\PreparationService.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\PreparationService.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\PreparationService.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\PreparationService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T17:48:46.621Z",
+              "WhenOpened": "2025-03-12T03:49:51.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OfficeService.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OfficeService.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\OfficeService.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OfficeService.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\OfficeService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T03:47:13.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "OfficeEarnings.cs",
-              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
-              "RelativeDocumentMoniker": "FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
-              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
-              "RelativeToolTip": "FinalBakery.Domain\\Entities\\OfficeEarnings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAfAAAAAAAAAA==",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "BakeryConsoleApp\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Bootcamp\\Backend\\Final Project\\FinalBakery\\BakeryConsoleApp\\Services\\OrderService.cs",
+              "RelativeToolTip": "BakeryConsoleApp\\Services\\OrderService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwCIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T17:40:29.669Z",
+              "WhenOpened": "2025-03-12T03:47:12.474Z",
               "EditorCaption": ""
             }
           ]

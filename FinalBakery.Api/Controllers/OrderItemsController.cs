@@ -23,29 +23,37 @@ namespace FinalBakery.Api.Controllers
         [HttpPost("createOrderItem")]
         public async Task<IActionResult> CreateOrderItem([FromQuery] int orderId, [FromQuery] int breadId, [FromQuery] int orderItemPrice, [FromQuery] int orderItemQuantity)
         {
-            OrderItemDTO orderItemDTO = new OrderItemDTO();
-            orderItemDTO.BreadId = breadId;
-            orderItemDTO.OrderId = orderId;
-            orderItemDTO.OrderItem_Cost = orderItemPrice;
-            orderItemDTO.OrderItem_Quantity = orderItemQuantity;
-            orderItemDTO.Audit = new Domain.Common.AuditInfo()
+            try
             {
-                CreatedBy = "Isra",
-                CreatedDate = DateTime.Now,
-                UpdatedDate = DateTime.Now,
-            };
+                OrderItemDTO orderItemDTO = new OrderItemDTO();
+                orderItemDTO.BreadId = breadId;
+                orderItemDTO.OrderId = orderId;
+                orderItemDTO.OrderItem_Cost = orderItemPrice;
+                orderItemDTO.OrderItem_Quantity = orderItemQuantity;
+                orderItemDTO.Audit = new Domain.Common.AuditInfo()
+                {
+                    CreatedBy = "Isra",
+                    CreatedDate = DateTime.Now,
+                    UpdatedDate = DateTime.Now,
+                };
 
-            CreateOrderItemCommand createOrderItemCommand = new CreateOrderItemCommand()
-            {
-                OrderItemDto = orderItemDTO,
-            };
+                CreateOrderItemCommand createOrderItemCommand = new CreateOrderItemCommand()
+                {
+                    OrderItemDto = orderItemDTO,
+                };
 
-            CreateComandResponse<OrderItem> response = await _mediator.Send(createOrderItemCommand);
+                CreateComandResponse<OrderItem> response = await _mediator.Send(createOrderItemCommand);
 
-            if (response.Success)
                 return Ok(response);
-            else
-                return BadRequest(response);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { success = false, message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { success = false, message = "Internal server error", details = ex.Message });
+            }
         }
 
         [HttpGet("getOrderItemsByOrderId")]

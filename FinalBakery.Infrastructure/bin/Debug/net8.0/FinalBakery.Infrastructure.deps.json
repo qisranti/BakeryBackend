@@ -793,7 +793,7 @@
         },
         "runtime": {
           "FinalBakery.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -801,7 +801,7 @@
       "FinalBakery.Domain/1.0.0": {
         "runtime": {
           "FinalBakery.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

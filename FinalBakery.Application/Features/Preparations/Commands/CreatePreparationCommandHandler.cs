@@ -40,7 +40,7 @@ namespace FinalBakery.Application.Features.Preparations.Commands
             catch (Exception ex)
             {
                 _logger.LogError($"An error occurred creating preparation step {request.PreparationDto}: {ex.Message}");
-                return new CreateComandResponse<Preparation>(null, "Error", false);
+                return new CreateComandResponse<Preparation>(null, ex.Message, false);
             }
         }
     }

@@ -54,7 +54,6 @@ C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\s
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FinalBakery.Api.props
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FinalBakery.Api.props
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\FinalBak.5BB0DF3F.Up2Date
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\FinalBakery.Api.dll
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\refint\FinalBakery.Api.dll
@@ -152,3 +151,4 @@ C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\bin\Debug\net8.0\A
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\bin\Debug\net8.0\MediatR.dll
 C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Bootcamp\Backend\Final Project\FinalBakery\FinalBakery.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

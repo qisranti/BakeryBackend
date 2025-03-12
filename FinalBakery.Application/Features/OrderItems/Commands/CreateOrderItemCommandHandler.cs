@@ -36,7 +36,7 @@ namespace FinalBakery.Application.Features.OrderItems.Commands
             catch (Exception ex)
             {
                 _logger.LogError($"An error occurred creating the Order Item {request.OrderItemDto}: {ex.Message}");
-                return new CreateComandResponse<OrderItem>(null, "Error", false);
+                return new CreateComandResponse<OrderItem>(null, ex.Message, false);
             }
         }
     }
